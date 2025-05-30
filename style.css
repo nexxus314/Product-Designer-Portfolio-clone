@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Satoshi', sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+}
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 60px;
+}
+#navpart1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+#navpart2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+#navpart1 h2 {
+  font-size: 24px;
+  font-weight: 200;
+}
+#navpart1 h3 {
+  font-size: 24px;
+  font-weight: 200;
+}
+#navpart2 h4 {
+  font-size: 24px;
+  font-weight: 200;
+}
+#intro {
+  padding: 50px 60px;
+  padding-top: 70px;
+}
+#intro h4 {
+  font-size: 20px;
+  font-weight: 200;
+}
+#intro h1 {
+  font-size: 160px;
+  font-weight: 500;
+  line-height: 160px;
+  margin-top: 30px;
+  letter-spacing: -10px;
+  word-spacing: 12px;
+}
+#casestudy {
+  padding: 20px 60px;
+  margin-top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#casestudy h4 {
+  font-size: 28px;
+  font-weight: 400;
+}
+#casestudy h4 {
+  font-size: 20px;
+  font-weight: 200;
+}
+#right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+#line {
+  height: 2px;
+  width: 150px;
+  font-size: 20px;
+  background-color: black;
+}
+#projects {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 60px;
+  gap: 60px;
+}
+.elem {
+  width: 50%;
+}
+.elem-image {
+  height: 650px;
+  width: 100%;
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+  padding: 0 60px;
+}
+#img1 {
+  background-image: url(https://sketch-cdn.imgix.net/assets/blog/icon-final-release%402x.png?ixlib=rb-4.1.1&fit=max&w=1024&q=95&auto=format&fm=png&s=bbc954c769cdae26c19a5f863912d190);
+}
+#img2 {
+  background-image: url(https://sketchelements.com/wp-content/uploads/2019/10/netflix-desktop-ui-concept-1024x768.png);
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 10px;
+}
+
+.bottom i {
+  border: 2px solid black;
+  border-radius: 15px;
+  font-size: 22px;
+  padding: 15px 30px;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+.bottom h4{
+    padding-top: 0px;
+    font-weight: 400;
+}
